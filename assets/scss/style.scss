@@ -1,0 +1,34 @@
+
+// global css
+@import "shared/variables";
+@import "shared/mixings";
+@import "shared/fonts";
+
+// components
+@import "components/header";
+@import "components/footer";
+@import "components/main";
+
+body{
+    background-color: #f2f7fa;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --header-height: 70px;
+    @media (max-width: 991px) 
+    {
+        --header-height: 60px;
+    }
+}
+
+
+
+
+
+
+
