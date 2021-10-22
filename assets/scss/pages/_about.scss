@@ -1,0 +1,40 @@
+
+
+.aboutmain{
+    top: 70px;
+    position: relative;
+    margin-bottom: 70px;
+    .container-xl {
+        .row{
+            .col-12{
+                .about-right{
+                    border-radius: 1rem !important;
+                    background-color: #fff!important;
+                    display: block;
+                    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+                    .article-title{
+                        font-weight: 700!important;
+                        font-size: 2rem;
+                    }
+                    .article-body{
+                        >p{
+                            line-height: 1.8em;
+                        }
+                    }
+                }
+            }
+            .col-12{
+                .about-left{
+                    border-radius: 1rem !important;
+                    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+                    overflow: hidden!important;
+                    .list-group{
+                        .active {
+                            background-color: #4c9935;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

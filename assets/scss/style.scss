@@ -9,6 +9,16 @@
 @import "components/footer";
 @import "components/main";
 
+
+// pages
+@import "pages/bloq";
+@import "pages/product";
+@import "pages/category";
+@import "pages/about";
+@import "pages/deliver";
+@import "pages/contact";
+@import "pages/giveback";
+
 body{
     background-color: #f2f7fa;
 
